@@ -1,0 +1,19 @@
+Package: RDA
+Type: Package
+Title: Datasets, functions and examples from the book: R Data Analysis-Methods
+    and Application (in chinese)by Kuangnan Fang et al
+Version: 0.1
+Date: 2017-02-19
+Author: Zhao Xue
+Maintainer: Zhao Xue <15420161152187@stu.xmu.edu.cn>
+Description: The collection of datasets, functions used in the book "R Data
+    Analysis-Methods and Application".
+License: GPL(>2)
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Depends:
+    R (>= 2.10)
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
